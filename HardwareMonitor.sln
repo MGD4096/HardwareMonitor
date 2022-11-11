@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arduino", "Arduino", "{3AB012E4-BD8C-43B9-9920-4F1CDB210EEC}"
+	ProjectSection(SolutionItems) = preProject
+		Arduino\sketch_nov4a.ino = Arduino\sketch_nov4a.ino
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardwareMonitorService", "HardwareMonitorService\HardwareMonitorService.csproj", "{1906CD60-DF74-4DCA-A35D-138FF2A733D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1906CD60-DF74-4DCA-A35D-138FF2A733D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1906CD60-DF74-4DCA-A35D-138FF2A733D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1906CD60-DF74-4DCA-A35D-138FF2A733D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1906CD60-DF74-4DCA-A35D-138FF2A733D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DF7B584-BE79-449D-BF1C-86C71F4EAA86}
+	EndGlobalSection
+EndGlobal
