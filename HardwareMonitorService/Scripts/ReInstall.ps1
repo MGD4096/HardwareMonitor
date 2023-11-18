@@ -1,2 +1,2 @@
-Get-Service -DisplayName "HardwareMonitor" | Remove-Service
+SC DELETE HardwareMonitor
 New-Service -Name "HardwareMonitor" -BinaryPathName ../HardwareMonitor.exe

@@ -1,1 +1,1 @@
-Get-Service -DisplayName "HardwareMonitor" | Remove-Service
+SC DELETE HardwareMonitor
