@@ -1,0 +1,1 @@
+New-Service -Name "HardwareMonitor" -BinaryPathName ../HardwareMonitor.exe

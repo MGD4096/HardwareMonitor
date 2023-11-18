@@ -1,0 +1,1 @@
+Get-Service -DisplayName "HardwareMonitor" | Remove-Service
